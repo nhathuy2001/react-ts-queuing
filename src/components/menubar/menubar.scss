@@ -1,0 +1,339 @@
+
+@mixin Auto-layout {
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 12px 12px 4px;
+gap: 8px;
+
+position: absolute;
+width: 176px;
+height: 48px;
+left: 12px;
+top: 0px;
+
+border-radius: 8px;
+}
+@mixin font {
+    /* 16/16 Semi */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Gray/$-gray-300 */
+
+color: #7E7D88;
+
+}
+@mixin fonthover {
+    /* 16/16 Semi */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+
+
+/* Orange/$-Orange-500 */
+
+color: #FF7506;
+
+}
+@mixin inside-autolayuot{
+    /* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.menubar-wrapper{
+    position: fixed;
+width: 1440px;
+height: 810px;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+/* BG */
+
+background: #F7F7F7;
+border-radius: 16px;
+}
+.menubar{
+    position: absolute;
+    width: 200px;
+    height: 810px;
+    left: 0px;
+    top: 0px;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Dropdown */
+    
+    box-shadow: 0px 4px 6px rgba(219, 219, 219, 0.5);
+    border-radius: 16px 0px 0px 16px;
+}
+.logo{
+/* Logo alta */
+position: absolute;
+width: 80px;
+height: 64px;
+left: 60px;
+top: 32px;
+}
+.dashboard-btn{
+    /* Frame 264 */
+
+cursor: pointer;
+position: absolute;
+width: 200px;
+height: 48px;
+left: 0px;
+top: 150px;
+
+/* Orange/$-Orange-500 */
+
+background: #FF7506;
+}
+.dashboard-item{
+    /* Frame 259 */
+/* Auto layout */
+
+@include Auto-layout()
+}
+.element4{
+    /* vuesax/linear/element-4 */
+
+
+width: 20px;
+height: 20px;
+height: 20px;
+width: 20px;
+left: 4px;
+top: 14px;
+border-radius: 0px;
+
+
+/* Inside auto layout */
+
+@include inside-autolayuot()
+}
+.a1 {
+    /* Dashboard */
+
+
+width: 82px;
+height: 24px;
+
+@include font();
+/* Inside auto layout */
+
+@include inside-autolayuot()
+}
+.logout-wrapper{
+/* Frame 269 */
+
+
+position: absolute;
+width: 200px;
+height: 46px;
+left: 0px;
+top: 732px;
+
+.logout-btn{
+    /* Frame 263 */
+    /* Auto layout */
+@include Auto-layout()
+    }
+}
+.logouticon{
+    /* fi:log-out */
+    
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    
+    
+    /* Inside auto layout */
+    
+    @include inside-autolayuot()
+    }
+a.a-2{
+   /* Cài đặt hệ thống */
+width: 120px;
+height: 24px;
+
+@include font();
+
+
+/* Inside auto layout */
+
+@include inside-autolayuot()
+    }
+.setting-wrapper{
+/* Frame 268 */
+cursor: pointer;
+position: absolute;
+width: 200px;
+height: 48px;
+left: 0px;
+top: 420px;
+}
+.setting-btn{
+/* Frame 263 */
+/* Auto layout */
+@include Auto-layout()
+}
+.settingicon{
+/* vuesax/outline/setting */
+
+
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+@include inside-autolayuot()
+}
+.a-3{
+/* Cài đặt hệ thống */
+width: 120px;
+height: 24px;
+@include font;
+/* Inside auto layout */
+@include inside-autolayuot
+}
+.moreicon{
+/* fi:more-vertical */
+width: 20px;
+height: 20px;
+/* Inside auto layout */
+@include inside-autolayuot()
+}
+.baocao-wrapper{
+    cursor: pointer;
+    position: absolute;
+width: 200px;
+height: 48px;
+left: 0px;
+top: 366px;
+}
+.baocao-btn{
+    @include Auto-layout()
+}
+.frameicon   {
+@include inside-autolayuot();
+width: 18px;
+height: 20px;
+}
+.a-4{
+    /* Cài đặt hệ thống */
+    width: 120px;
+    height: 24px;
+    @include font;
+    /* Inside auto layout */
+    @include inside-autolayuot
+}
+.capso-wrapper{
+/* Frame 267 */
+cursor: pointer;
+
+position: absolute;
+width: 200px;
+height: 48px;
+left: 0px;
+top: 312px;
+}
+.capso-btn{
+@include Auto-layout()
+}
+.dashboardicon{
+    width: 20px;
+    height: 20px;
+    
+}
+.a-5{
+/* Cấp số */
+
+
+width: 50px;
+height: 24px;
+@include font()
+}
+.dichvu-wrapper{
+/* Frame 266 */
+cursor: pointer;
+
+position: absolute;
+width: 200px;
+height: 48px;
+left: 0px;
+top: 258px;
+}
+.dichvu-btn{
+@include Auto-layout()
+}
+.dichvuicon{
+/* Frame 332 */
+
+
+width: 22px;
+height: 20px;
+@include inside-autolayuot()
+}
+.a-6{
+/* Dịch vụ */
+
+
+width: 55px;
+height: 24px;
+@include inside-autolayuot();
+@include font()
+}
+.thietbi-wrapper{
+    
+    position: absolute;
+    width: 200px;
+    height: 48px;
+    left: 0px;
+    top: 204px;
+    cursor: pointer;
+}
+.thietbi-wrapper:hover{
+    background: #FFF2E7;   
+    color: #FF7506;
+}
+.thietbi-btn{
+@include Auto-layout()
+}
+.thietbiicon{
+    width: 20px;
+    height: 20px;
+    @include inside-autolayuot()
+}
+.a-7{
+    /* Thiết bị */
+
+
+width: 56px;
+height: 24px;
+@include font();
+@include inside-autolayuot();
+}
+.a-7:hover{
+    @include fonthover()
+}

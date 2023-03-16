@@ -1,0 +1,302 @@
+.LoginPage-Wrapper {
+    position: fixed;
+width: 1440px;
+height: 810px;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+/* BG */
+
+background: #F7F7F7;
+border-radius: 16px;
+    .logo{
+        position: absolute;
+        width: 170px;
+        height: 136px;
+        left: 208px;
+        top: 82px;
+    }
+
+    
+}
+.background-pic{
+    position: absolute;
+width: 848px;
+height: 812px;
+left: 592px;
+top: 0px;
+
+/* White */
+
+background: #FFFFFF;
+}
+.loginpic{
+    /* Group 625235 */
+
+
+position: absolute;
+width: 736px;
+height: 614.06px;
+left: 79px;
+top: 112.94px;
+
+}
+.icon-frame{
+    /* Frame 28 */
+
+
+width: 92px;
+height: 8px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.username{
+    /* Frame 624727 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 400px;
+height: 75px;
+left: 94px;
+top: 293px;
+}
+.namecontent{
+   /* Tên đăng nhập * */
+
+
+width: 133px;
+height: 27px;
+
+/* 18/18 Reg */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #37474F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.nameform{
+    /* Input */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 270px 10px 12px;
+gap: 10px;
+
+width: 400px;
+height: 44px;
+
+/* white */
+
+background: #FFFFFF;
+/* Gray/$-gray-100 */
+
+border: 1.5px solid #D4D4D7;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.userpasswork{
+/* Frame 624728 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+width: 400px;
+height: 75px;
+left: 94px;
+top: 378px;
+
+}
+.passworkcontent{
+/* Mật khẩu * */
+
+
+width: 88px;
+height: 27px;
+
+/* 18/18 Reg */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #37474F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.passworkform{
+/* Input */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px 16px 10px 12px;
+gap: 10px;
+
+width: 400px;
+height: 44px;
+
+/* white */
+
+background: #FFFFFF;
+/* Gray/$-gray-100 */
+
+border: 1.5px solid #D4D4D7;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.hide-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .forgetpasswork-content{
+    /* Quên mật khẩu? */
+
+
+position: absolute;
+width: 102px;
+height: 21px;
+left: 94px;
+top: 471px;
+
+/* 14/14 Reg */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+/* Red */
+
+color: #E73F3F;
+  }
+.login-btn{
+    /* Button */
+cursor: pointer;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 162px;
+height: 40px;
+left: 215px;
+top: 511px;
+
+/* Orange/$-Orange-400 */
+
+background: #FF9138;
+/* down */
+
+box-shadow: 0px 0px 6px #E7E9F2;
+border-radius: 8px;
+}
+.login-btn-content{
+    /* Button */
+
+
+width: 82px;
+height: 24px;
+
+/* 16/16 Bold */
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
